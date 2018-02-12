@@ -1588,8 +1588,7 @@ body {
 .site-title,
 .site-title a {
 	color: #222;
-	opacity: 0.3; /* Prevent opacity from changing during selective refreshes in the customize preview */
-	display: none;
+	opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
 }
 
 body.has-header-image .site-title,
@@ -1608,7 +1607,7 @@ body.has-header-video .site-title a {
 
 body.has-header-image .site-description,
 body.has-header-video .site-description {
-	color: crimson;
+	color: #fff;
 	opacity: 0.8;
 }
 
