@@ -29,6 +29,11 @@ get_header(); ?>
 	<?php endif; ?>
 
 	<div id="primary" class="content-area">
+
+	Hello world
+
+	
+	
 		<main id="main" class="site-main" role="main">
 
 			<?php
@@ -60,7 +65,8 @@ get_header(); ?>
 			?>
 
 		</main><!-- #main -->
-	</div><!-- #primary -->
+	</div>
+	<!-- #primary -->
 	<?php get_sidebar(); ?>
 </div><!-- .wrap -->
 
