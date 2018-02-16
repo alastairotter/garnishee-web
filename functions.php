@@ -594,3 +594,12 @@ function custom_style_sheet() {
 	wp_enqueue_style( 'custom-styling', get_stylesheet_directory_uri() . '/custom.css' );
 	}
 	add_action('wp_enqueue_scripts', 'custom_style_sheet');
+
+
+// Add Google Fonts
+function wpb_add_google_fonts() {
+ 
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:700', false ); 
+	}
+	 
+	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

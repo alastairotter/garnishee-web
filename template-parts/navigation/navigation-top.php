@@ -17,7 +17,14 @@
 		_e( 'Menu', 'twentyseventeen' );
 		?>
 	</button>
+	<div class="nav-left">
+	<div class="logo">
+	
+	<span class="highlight">Pound</span> of Flesh
 
+	</div>
+		</div>
+<div class="nav-right">
 	<?php wp_nav_menu( array(
 		'theme_location' => 'top',
 		'menu_id'        => 'top-menu',
@@ -26,4 +33,6 @@
 	<?php if ( ( twentyseventeen_is_frontpage() || ( is_home() && is_front_page() ) ) && has_custom_header() ) : ?>
 		
 	<?php endif; ?>
+
+	</div>
 </nav><!-- #site-navigation -->

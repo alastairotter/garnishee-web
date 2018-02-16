@@ -1,3 +1,5 @@
+
+
 .navigation-top {
     background: #000;
     color: #fff;
@@ -11,7 +13,160 @@
     color: #D0021B !important;
 }
 
-#panel1, #panel3 { 
+#panel1, #panel4 { 
     background: #000;
     color: #fff;
 }
+.nav-left { 
+    float: left; 
+    text-align: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.nav-left .logo { 
+    font-family: "Roboto Slab", Arial, Helvetica;
+    font-weight: 700;
+    font-size: 180%;
+}
+
+.nav-left .logo .highlight { 
+    color: #CF0017;
+}
+
+
+#top-menu { 
+    text-align: right;
+}
+.nav-right { 
+    float: left;
+    text-align: right !important;
+    width: 75%;
+
+}
+
+.panel-content .wrap { 
+    width:100%; 
+    max-width: 930px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.lead-head { 
+    font-family: "Helvetica neue", Arial;
+    font-weight: 700;
+    font-size: 370%;
+    margin-bottom: 30px;
+    color: rgb(32, 32, 32);
+    /* color: #cf0017; */
+}
+
+.entry-header { 
+    margin-bottom: 20px !important;
+    padding: 0;
+}
+
+#post-7 h2.entry-title { 
+    display: none;
+}
+.entry-header .entry-title { 
+    font-size: 140% !important;
+}
+
+#panel1 .entry-header .entry-title, #panel2 .entry-header .entry-title { 
+    display: none;
+}
+.post-edit-link { 
+    display: none;
+}
+
+#panel1 .wrap, #panel2 .wrap { 
+    padding-top: 30px;
+    border-bottom: none !important;
+    padding-bottom: 10px;
+}
+
+
+#post-7 .wrap { 
+    padding-bottom: 10px;
+}
+
+footer { 
+    background: #000;
+    color: #fff;
+    margin-top: 0px !important;
+    font-size: 80% !important;
+}
+footer a {
+    color: #fff;
+    text-decoration: none !important;
+    border: none;
+    text-decoration-style: none;
+}
+
+.widget ul li a { 
+    text-decoration: none !important;
+}
+footer a:hover { 
+    color: #CF0017 !important;
+}
+
+footer .widget-title { 
+    color: #fff;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+section .widget-text { 
+    padding: 0 !important;
+}
+
+
+
+.widget ul li { 
+    border: none;
+    padding: 3px;
+}
+
+
+
+.second-head { 
+    text-transform: uppercase; 
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+tr {
+    border-bottom: none !important;
+}
+
+p { 
+    font-size:90%;
+    line-height: 160%;
+}
+
+img.ccard { 
+    opacity: 0.5;
+}
+
+.more-button { 
+    padding: 5px 10px;
+    background: #CE0013;
+    color: #000;
+    border-radius: 5px;
+    float: left;
+    width: auto;
+    font-size: 90%;
+    font-weight: 700;
+   
+}
+.more-button:hover { 
+    color: #eee;
+}
+
+
+
+
+
