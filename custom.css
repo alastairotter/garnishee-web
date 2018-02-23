@@ -175,9 +175,7 @@ img.ccard {
 }
 
 h1.page-title { 
-    /* display: none; */
     font-size: 140%;
-
 }
 
 h1.entry-title { 
@@ -337,6 +335,19 @@ a.rpc-title {
 
 .wp-post-image { 
     margin-bottom: 30px;
+}
+
+.set-left { 
+    width: 75%; 
+    float: left;
+}
+.set-right { 
+    width: 75%;
+    float: right;
+}
+.image-left { 
+    width:22%;
+    float: left;
 }
 
 
