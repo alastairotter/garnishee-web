@@ -18,6 +18,12 @@
 		echo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );
 	endif;
 	?>
+
+	<?php 
+	if ( has_post_thumbnail() ) {
+		the_post_thumbnail();
+	    }
+	    ?>
 	<header class="entry-header">
 		<?php
 		if ( 'post' === get_post_type() ) {
@@ -52,10 +58,16 @@
 	<div class="entry-content">
 		<?php
 		/* translators: %s: Name of current post */
+		// the_excerpt();
+		if(is_single()) { 
 		the_content( sprintf(
 			__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
 			get_the_title()
 		) );
+		}
+		else { 
+			the_excerpt();
+		}
 
 		wp_link_pages( array(
 			'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
@@ -66,10 +78,16 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<?php 
+// next_post_link( $format, $link, $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' );
+ 
+// previous_post_link( $format, $link, $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' );
+	?>
+
 	<?php
-	if ( is_single() ) {
-		twentyseventeen_entry_footer();
-	}
+	// if ( is_single() ) {
+	// 	twentyseventeen_entry_footer();
+	// }
 	?>
 
 </article><!-- #post-## -->
