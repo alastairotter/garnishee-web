@@ -599,7 +599,10 @@ function custom_style_sheet() {
 // Add Google Fonts
 function wpb_add_google_fonts() {
  
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:700', false ); 
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:700|Montserrat:900', false ); 
+	// wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:900', false );
+	
+
 	}
 	 
 	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

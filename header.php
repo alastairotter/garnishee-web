@@ -28,7 +28,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		
+		<div class="mobile-header"><span class="highlight">Pound</span> of Flesh</div>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">

@@ -1,21 +1,37 @@
-
-
-.navigation-top {
-    background: #000;
+.navigation-top { 
     color: #fff;
+    background: #ce0013;
+    background: linear-gradient( #ed2334, #ce0013);
+    -webkit-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+    border: none;
+}
+
+.navigation-top .wrap { 
+    padding: 10px 30px 0 30px;
+    /* padding-top: 10px; */
 }
 
 .navigation-top a { 
     color:#fff;
 }
 
+.navigation-top a:hover { 
+    color: #000;
+}
+
 .navigation-top .current-menu-item > a { 
-    color: #D0021B !important;
+    color: #000 !important;
 }
 
 #panel1, #panel4 { 
     background: #000;
+    background: linear-gradient(to bottom right, #2b2b2b, #000);
     color: #fff;
+    -webkit-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
 }
 .nav-left { 
     float: left; 
@@ -26,12 +42,12 @@
 
 .nav-left .logo { 
     font-family: "Roboto Slab", Arial, Helvetica;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 180%;
 }
 
 .nav-left .logo .highlight { 
-    color: #CF0017;
+    color: #000;
 }
 
 
@@ -54,12 +70,15 @@
 }
 
 .lead-head { 
-    font-family: "Helvetica neue", Arial;
-    font-weight: 700;
-    font-size: 370%;
+    font-family: "Montserrat", "Helvetica neue", Arial;
+    font-weight: 900;
+    font-size: 340%;
     margin-bottom: 30px;
+    margin-top: 30px;
     color: rgb(32, 32, 32);
     /* color: #cf0017; */
+    text-decoration: underline;
+    text-decoration-color: #CD000F;
 }
 
 .entry-header { 
@@ -132,10 +151,12 @@ section .widget-text {
 
 
 .second-head { 
-    text-transform: uppercase; 
-    font-size: 140%;
+    font-family: "montserrat";
+    /* text-transform: uppercase;  */
+    font-size: 180%;
     font-weight: 700;
     margin-bottom: 30px;
+    color: #CD000F;
 }
 
 tr {
@@ -160,6 +181,9 @@ img.ccard {
     width: auto;
     font-size: 90%;
     font-weight: 700;
+    border: solid 1px lightgray;
+    color: #eee;
+    margin-bottom: 30px;
    
 }
 .more-button:hover { 
@@ -348,6 +372,119 @@ a.rpc-title {
 .image-left { 
     width:22%;
     float: left;
+}
+
+.mobile-header { 
+    display: none;
+}
+
+/* admin header
+body {
+    margin-top: -32px;
+    padding-bottom: 28px;
+}
+body.admin-bar #wphead {
+    padding-top: 0;
+}
+body.admin-bar #footer {
+    padding-bottom: 28px;
+}
+#wpadminbar {
+    top: auto !important;
+    bottom: 0;
+}
+#wpadminbar .quicklinks .menupop ul {
+    bottom: 28px;
+} */
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .wrap { 
+        
+    }
+    .lead-head { 
+        font-size: 250%;
+        line-height: 120%;
+        margin-top: 0px;
+        margin-bottom: 30px !important;
+    }
+
+    .second-head { 
+        font-size: 150%;
+    }
+
+    .set-left { 
+        width: 100%; 
+        font-size: 14px;      
+    }
+
+    .panel-content { 
+        padding: 10px;
+    }
+
+    .logo { 
+        display: none;
+        font-size: 50%;
+    }
+
+    .image-left { 
+        display: none;
+    }
+
+    .set-right { 
+        width: 100%;
+    }
+
+    .more-button { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-navigation { 
+        display: none;
+    }
+
+    .navigation-top { 
+        display: none;
+    }
+
+    .mobile-header { 
+        display: block; 
+        width: 100%; 
+        background: #000;
+        color: #fff;
+        font-size: 140%;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-left: 10px;
+        font-family: "Roboto Slab", Arial, Helvetica;
+        font-weight: 700;
+        color: #fff;
+    background: #ce0013;
+    background: linear-gradient( #ed2334, #ce0013);
+    -webkit-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
+    border: none;
+    }
+
+    .mobile-header .highlight { 
+        color: #000;
+    }
+
+   
+
+    aside#secondary { 
+        display: none;
+    }
+
+    
+
+    
+
 }
 
 
