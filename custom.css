@@ -207,10 +207,6 @@ h1.entry-title {
     color: #ce0013;
 }
 
-aside#secondary { 
-    /* display: none; */
-}
-
 footer.entry-footer {
     display: none;
 }
@@ -402,9 +398,7 @@ body.admin-bar #footer {
 
 
 @media screen and (max-width: 600px) {
-    .wrap { 
-        
-    }
+    
     .lead-head { 
         font-size: 250%;
         line-height: 120%;
