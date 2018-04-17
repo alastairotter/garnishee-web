@@ -66,7 +66,8 @@
 		) );
 		}
 		else { 
-			the_excerpt();
+			// the_excerpt();
+			the_content();
 		}
 
 		wp_link_pages( array(
