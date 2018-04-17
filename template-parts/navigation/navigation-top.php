@@ -20,7 +20,7 @@
 	<div class="nav-left">
 	<div class="logo">
 	
-	<span class="highlight">Pound</span> of Flesh
+	<!-- <span class="highlight">Pound</span> of Flesh -->
 
 	</div>
 		</div>

@@ -1,7 +1,7 @@
 .navigation-top { 
     color: #fff;
-    background: #ce0013;
-    background: linear-gradient( #ed2334, #ce0013);
+    background: #D62928;
+    /* background: linear-gradient( #E50000, #ce0013); */
     -webkit-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
 -moz-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
 box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
@@ -194,6 +194,10 @@ img.ccard {
     padding: 35px;
 }
 
+.post-7 .wrap { 
+    padding-top: 0px;
+}
+
 #primary { 
     margin-left: 0px !important;
 }
@@ -374,6 +378,23 @@ a.rpc-title {
     display: none;
 }
 
+.logo-holder { 
+    
+    width: 80%; 
+    max-width: 950px;
+    /* border: solid 1px gray; */
+    /* min-height: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.front-logo { 
+    margin-top: 100px;
+}
+
+.inside-logo { 
+    margin-bottom: 30px;
+}
+
 
 @media screen and (max-width: 600px) {
     
@@ -398,8 +419,18 @@ a.rpc-title {
     }
 
     .logo { 
-        display: none;
+        /* display: none; */
         font-size: 50%;
+
+    }
+
+    .front-logo { 
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .inside-logo { 
+        margin-left: 0px;;
     }
 
     .image-left { 

@@ -28,7 +28,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		<div class="mobile-header"><span class="highlight">Pound</span> of Flesh</div>
+
+		<!-- <div class="mobile-header"><span class="highlight">Pound</span> of Flesh</div> -->
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
@@ -45,3 +46,14 @@
 
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
+<?php
+	if(is_front_page()) { $addclass = "front-logo"; }
+	else { $addclass="inside-logo"; }
+	?>
+<div class="logo-holder <?php echo $addclass; ?>">
+<?php 
+$burl = get_template_directory_uri();
+echo "<img class='logo' src='" . $burl . "/logo_new.jpg'>";
+?>
+</div>
+		
