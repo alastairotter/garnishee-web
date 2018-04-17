@@ -29,6 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
 
 
+
 		<!-- <div class="mobile-header"><span class="highlight">Pound</span> of Flesh</div> -->
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
@@ -53,7 +54,7 @@
 <div class="logo-holder <?php echo $addclass; ?>">
 <?php 
 $burl = get_template_directory_uri();
-echo "<img class='logo' src='" . $burl . "/logo_new.jpg'>";
+echo "<a href='http://poundofflesh.org'><img class='logo' src='" . $burl . "/logo_new.jpg'></a>";
 ?>
 </div>
 		
