@@ -18,12 +18,16 @@
 		?>
 	</button>
 	<div class="nav-left">
-	<div class="logo">
-	
+	<?php 
+	$burl = get_template_directory_uri();
+	echo "<a href='http://poundofflesh.org'><img class='top-front-logo' src='" . $burl . "/logo-white.png'></a>";
+	?>
+	<!-- <div class="logo">	 -->
 	<!-- <span class="highlight">Pound</span> of Flesh -->
 	
+	
 
-	</div>
+	<!-- </div> -->
 		</div>
 <div class="nav-right">
 	<?php wp_nav_menu( array(

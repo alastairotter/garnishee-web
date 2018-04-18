@@ -30,7 +30,13 @@
 
 
 
-		<!-- <div class="mobile-header"><span class="highlight">Pound</span> of Flesh</div> -->
+		<div class="mobile-header">
+			
+		<?php 
+	$burl = get_template_directory_uri();
+	echo "<a href='http://poundofflesh.org'><img class='logo' src='" . $burl . "/logo-white.png'></a>";
+	?>
+		</div>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
@@ -52,9 +58,9 @@
 	else { $addclass="inside-logo"; }
 	?>
 <div class="logo-holder <?php echo $addclass; ?>">
-<?php 
+<!-- <?php 
 $burl = get_template_directory_uri();
 echo "<a href='http://poundofflesh.org'><img class='logo' src='" . $burl . "/logo_new.jpg'></a>";
-?>
+?> -->
 </div>
 		

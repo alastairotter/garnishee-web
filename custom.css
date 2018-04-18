@@ -1,7 +1,7 @@
 .navigation-top { 
     color: #fff;
     background: #D62928;
-    /* background: linear-gradient( #E50000, #ce0013); */
+    background: linear-gradient( #E50000, #ce0013);
     -webkit-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
 -moz-box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
 box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.48);
@@ -388,16 +388,43 @@ a.rpc-title {
     margin-right: auto;
 }
 .front-logo { 
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .inside-logo { 
-    margin-bottom: 30px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 80px; */
 }
 
 .small-logo {
     width: 100px;
     height: 50px;
+}
+
+.nav-left { 
+    padding: 0px !important;
+    margin: 0px !important; 
+}
+
+.nav-left a { 
+    margin: 0;
+    padding: 0;
+}
+
+.top-front-logo { 
+    /* width: 900px; */
+    /* height: 500px; */
+}
+
+.navigation-top .wrap { 
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.nav-right { 
+    margin-top: 15px;
 }
 
 
@@ -427,10 +454,22 @@ a.rpc-title {
         /* display: none; */
         font-size: 50%;
 
+
+    }
+
+    .navigation-top .wrap { 
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+   img.logo { 
+        width: 70%;
+        margin: 0;
+        padding:0;
     }
 
     .front-logo { 
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 0px;
     }
 
@@ -465,8 +504,9 @@ a.rpc-title {
         background: #000;
         color: #fff;
         font-size: 140%;
-        padding-top: 21px;
-        padding-bottom: 21px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
         padding-left: 10px;
         font-family: "Roboto Slab", Arial, Helvetica;
         font-weight: 700;
